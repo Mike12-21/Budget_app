@@ -15,7 +15,11 @@ class MyApp extends StatelessWidget {
       title: 'Budget UI',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: Colors.green,
+        primaryColor: Colors.greenAccent,
+        appBarTheme: AppBarTheme(
+          backgroundColor: Colors.greenAccent,
+          elevation: 0,
+        ),
       ),
       home: HomeScreen(),
     );
